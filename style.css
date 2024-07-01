@@ -184,3 +184,12 @@ dd::after {
 .d-block {
   display: block !important;
 }
+
+.big-quote {
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  max-width: 30rem;
+  margin: 0 auto;
+}
