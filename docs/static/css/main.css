@@ -146,14 +146,15 @@ h3 {
 }
 
 dt {
+  display: inline;
   font-weight: bold;
-  display: inline-block;
-  width: 4rem;
 }
+
 dd {
   display: inline;
-  margin-inline-start: 1ch;
+  margin-inline-start: inherit;
 }
+
 dd::after {
   content: '';
   display: block;
